@@ -1,0 +1,35 @@
+# Reading pref.tcl
+# do MKRVIDOR4000_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/qrartus/201/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/simon/OneDrive/Namizje/New\ folder\ (3)/shaders_in_FPGA/Shaders\ in\ FPGA/ip/SYSTEM_PLL {C:/Users/simon/OneDrive/Namizje/New folder (3)/shaders_in_FPGA/Shaders in FPGA/ip/SYSTEM_PLL/SYSTEM_PLL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:00:00 on Jun 27,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/simon/OneDrive/Namizje/New folder (3)/shaders_in_FPGA/Shaders in FPGA/ip/SYSTEM_PLL" C:/Users/simon/OneDrive/Namizje/New folder (3)/shaders_in_FPGA/Shaders in FPGA/ip/SYSTEM_PLL/SYSTEM_PLL.v 
+# -- Compiling module SYSTEM_PLL
+# 
+# Top level modules:
+# 	SYSTEM_PLL
+# End time: 15:00:01 on Jun 27,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/simon/OneDrive/Namizje/New\ folder\ (3)/shaders_in_FPGA/Shaders\ in\ FPGA/projects/MKRVIDOR4000_template {C:/Users/simon/OneDrive/Namizje/New folder (3)/shaders_in_FPGA/Shaders in FPGA/projects/MKRVIDOR4000_template/MKRVIDOR4000_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:00:01 on Jun 27,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/simon/OneDrive/Namizje/New folder (3)/shaders_in_FPGA/Shaders in FPGA/projects/MKRVIDOR4000_template" C:/Users/simon/OneDrive/Namizje/New folder (3)/shaders_in_FPGA/Shaders in FPGA/projects/MKRVIDOR4000_template/MKRVIDOR4000_top.v 
+# -- Compiling module MKRVIDOR4000_top
+# ** Error: (vlog-13069) C:/Users/simon/OneDrive/Namizje/New folder (3)/shaders_in_FPGA/Shaders in FPGA/projects/MKRVIDOR4000_template/MKRVIDOR4000_top.v(179): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# End time: 15:00:01 on Jun 27,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/qrartus/201/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./MKRVIDOR4000_run_msim_rtl_verilog.do line 9
+# C:/qrartus/201/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/simon/OneDrive/Namizje/New\ folder\ (3)/shaders_in_FPGA/Shaders\ in\ FPGA/projects/MKRVIDOR4000_template {C:/User..."
